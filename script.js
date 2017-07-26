@@ -55,10 +55,8 @@ function showDate() {
   var timeZone = dateArr.splice(5,2);
 
   CLOCK.querySelector('#weekday span').innerHTML = weekDay;
-
   CLOCK.querySelector('#month span').innerHTML = month; month;
   CLOCK.querySelector('#day span').innerHTML = day;
-
 }
 // to tick hands according to time
 function runTheClock (){
